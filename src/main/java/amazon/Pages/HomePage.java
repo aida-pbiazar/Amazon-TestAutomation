@@ -42,29 +42,25 @@ public class HomePage extends DriverUtil {
 	public LoggedInHomePage createAccount(AmazonUser amazonUser) throws Exception {
 		elementVisible(account, 5);
 		hoverOverAndClick(account, startHere);
-		System.out.println(amazonUser.getUserName());
 		findElement(nameField).sendKeys(amazonUser.getUserName());
 		findElement(countryDropDown).click();
 		findElement(usCountryDropDown).click();
 		findElement(phoneNumber).sendKeys("6672205141");
-		String passWord = amazonUser.getUserPassword();
-		System.out.println(passWord);
 		findElement(passWordField).sendKeys(amazonUser.getUserPassword());
 		findElement(createAccountBtn).click();
 		String smsBody = OTPHandle.getMessage();
 		String OTPNumber = smsBody.replaceAll("[^-?0-9]+", "");
-		System.out.println(OTPNumber);
 		findElement(otpField).sendKeys(OTPNumber);
 		findElement(createAccount).click();
 		return new LoggedInHomePage(driver);
 	}
 
-	public LoggedInHomePage login() throws Exception {
+	public LoggedInHomePage login(String userPhoneNumber,String userPassword) throws Exception {
 		elementVisible(account, 5);
 		findElement(account).click();
-		findElement(emailField).sendKeys("6672205141");
+		findElement(emailField).sendKeys(userPhoneNumber);
 		findElement(createAccountBtn).click();
-		findElement(passWordField).sendKeys("1678900");
+		findElement(passWordField).sendKeys(userPassword);
 		findElement(signInBtn).click();
 		return new LoggedInHomePage(driver);
 	}

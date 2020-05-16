@@ -2,34 +2,34 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-16T07:50:09Z" name="Command line suite" finished-at="2020-05-16T07:51:56Z" duration-ms="106993">
+  <suite started-at="2020-05-16T09:02:02Z" name="Command line suite" finished-at="2020-05-16T09:03:25Z" duration-ms="82873">
     <groups>
     </groups>
-    <test started-at="2020-05-16T07:50:09Z" name="Command line test" finished-at="2020-05-16T07:51:56Z" duration-ms="106993">
+    <test started-at="2020-05-16T09:02:02Z" name="Command line test" finished-at="2020-05-16T09:03:25Z" duration-ms="82873">
       <class name="AmazonScenarioTwoAndThreeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T03:50:31Z" name="setUp" finished-at="2020-05-16T03:50:43Z" duration-ms="11492" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T05:02:26Z" name="setUp" finished-at="2020-05-16T05:02:39Z" duration-ms="13117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="changeCurrencyInSetting_shouldLeadTo_NewCurrencyValueShown()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T03:50:43Z" name="changeCurrencyInSetting_shouldLeadTo_NewCurrencyValueShown" finished-at="2020-05-16T03:51:32Z" duration-ms="49912" status="PASS">
+        <test-method signature="changeCurrencyInSetting_shouldLeadTo_NewCurrencyValueShown()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T05:02:39Z" name="changeCurrencyInSetting_shouldLeadTo_NewCurrencyValueShown" finished-at="2020-05-16T05:02:51Z" duration-ms="12056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCurrencyInSetting_shouldLeadTo_NewCurrencyValueShown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T03:51:32Z" name="setUp" finished-at="2020-05-16T03:51:44Z" duration-ms="11283" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T05:02:51Z" name="setUp" finished-at="2020-05-16T05:03:12Z" duration-ms="21041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchTVCategory_shouldLeadTo_CorrectNumberOfResultsShown()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T03:51:44Z" name="searchTVCategory_shouldLeadTo_CorrectNumberOfResultsShown" finished-at="2020-05-16T03:51:56Z" duration-ms="12395" status="PASS">
+        <test-method signature="searchTVCategory_shouldLeadTo_CorrectNumberOfResultsShown()[pri:0, instance:AmazonScenarioTwoAndThreeTest@7113b13f]" started-at="2020-05-16T05:03:12Z" name="searchTVCategory_shouldLeadTo_CorrectNumberOfResultsShown" finished-at="2020-05-16T05:03:25Z" duration-ms="13637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTVCategory_shouldLeadTo_CorrectNumberOfResultsShown -->
       </class> <!-- AmazonScenarioTwoAndThreeTest -->
       <class name="AmazonScenarioOneTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonScenarioOneTest@1a3869f4]" started-at="2020-05-16T03:50:09Z" name="setUp" finished-at="2020-05-16T03:50:22Z" duration-ms="13354" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AmazonScenarioOneTest@1a3869f4]" started-at="2020-05-16T05:02:03Z" name="setUp" finished-at="2020-05-16T05:02:17Z" duration-ms="14089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="newUserCreated_shouldLeadTo_ZeroGiftCardBalance()[pri:0, instance:AmazonScenarioOneTest@1a3869f4]" started-at="2020-05-16T03:50:22Z" name="newUserCreated_shouldLeadTo_ZeroGiftCardBalance" finished-at="2020-05-16T03:50:31Z" duration-ms="8540" status="PASS">
+        <test-method signature="newUserCreated_shouldLeadTo_ZeroGiftCardBalance()[pri:0, instance:AmazonScenarioOneTest@1a3869f4]" started-at="2020-05-16T05:02:17Z" name="newUserCreated_shouldLeadTo_ZeroGiftCardBalance" finished-at="2020-05-16T05:02:26Z" duration-ms="8912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newUserCreated_shouldLeadTo_ZeroGiftCardBalance -->
